@@ -1,0 +1,47 @@
+{
+  "name": "koa-2-ioredis",
+  "description": "ioredis midleware for koa 2 application",
+  "repository": "evheniy/koa-2-ioredis",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "npm run security && npm run clear && npm run lint && npm run coverage",
+    "lint": "./node_modules/.bin/eslint index.js tests",
+    "coverage": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- tests --recursive",
+    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "clear": "./node_modules/.bin/rimraf coverage",
+    "security": "./node_modules/.bin/nsp check"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "keywords": [
+    "koa2",
+    "middleware",
+    "ioredis",
+    "redis"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "config": "^1.25.1",
+    "ioredis": "^2.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "coveralls": "^2.11.15",
+    "debug": "^2.6.0",
+    "eslint": "^3.14.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "koa": "^2.0.0-alpha.7",
+    "koa-router": "^7.0.1",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nsp": "^2.6.2",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.8.0"
+  },
+  "license": "MIT"
+}

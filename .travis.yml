@@ -1,0 +1,7 @@
+language: node_js
+services:
+  - redis-server
+node_js:
+  - 7
+script:
+  - npm test && npm run report-coverage
