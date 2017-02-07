@@ -4,6 +4,7 @@ Koa.js 2 ioredis middleware
 ioredis midleware for koa 2 application
 
 
+[![npm version](https://badge.fury.io/js/koa-2-ioredis.svg)](https://badge.fury.io/js/koa-2-ioredis)
 [![Build Status](https://travis-ci.org/evheniy/koa-2-ioredis.svg?branch=master)](https://travis-ci.org/evheniy/koa-2-ioredis)
 [![Coverage Status](https://coveralls.io/repos/github/evheniy/koa-2-ioredis/badge.svg?branch=master)](https://coveralls.io/github/evheniy/koa-2-ioredis?branch=master)
 
