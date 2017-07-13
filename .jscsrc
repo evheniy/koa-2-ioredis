@@ -1,0 +1,4 @@
+{
+  "preset": "airbnb",
+  "excludeFiles": ["npm_modules", "dist"]
+}
