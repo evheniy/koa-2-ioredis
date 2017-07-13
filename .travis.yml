@@ -1,7 +1,10 @@
 language: node_js
-services:
-  - redis-server
 node_js:
-  - 7
+  - "7"
+  - "8"
+services:
+    - redis-server
 script:
-  - npm test && npm run report-coverage
+  - npm run lint
+  - npm run test
+  - npm run report
