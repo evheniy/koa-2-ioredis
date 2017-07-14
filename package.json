@@ -2,7 +2,7 @@
   "name": "koa-2-ioredis",
   "description": "ioredis midleware for koa 2 application",
   "repository": "evheniy/koa-2-ioredis",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "lint": "eslint index.js tests",
     "lint:js:eslint": "eslint .",
