@@ -4,7 +4,7 @@
   "repository": "evheniy/koa-2-ioredis",
   "version": "1.1.1",
   "scripts": {
-    "lint": "npm-run-all --parallel lint:**",
+    "lint": "npm-run-all lint:**",
     "lint:clear": "rimraf coverage",
     "lint:js:eslint": "eslint .",
     "lint:js:jscs": "jscs .",
